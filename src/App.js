@@ -1,11 +1,11 @@
 import "./App.css";
 
+import Form from "./components/Form";
+import StepTwo from "./components/StepTwo";
+import Footer from "./components/Footer";
+
 function App() {
-  return (
-    <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;

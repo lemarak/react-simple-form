@@ -1,1 +1,15 @@
 /* Other rules */
+
+.container {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  height: 40px;
+  width: 120px;
+}
