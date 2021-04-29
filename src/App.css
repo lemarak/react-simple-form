@@ -2,14 +2,68 @@
 
 .container {
   margin: 0 auto;
-  width: 1024px;
+  width: 400px;
+  padding: 30px 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  margin: 20px 0 60px 0;
 }
+
 input {
-  height: 40px;
-  width: 120px;
+  height: 50px;
+  width: 400px;
+  margin-bottom: 40px;
+  font-size: 1.2rem;
+  border: 1px solid rgb(66, 43, 128);
+  outline: none;
+  padding: 0 10px;
+}
+
+label {
+  font-size: 1.4rem;
+  margin-bottom: 6px;
+}
+
+button {
+  height: 50px;
+  width: 400px;
+  color: white;
+  background-color: rgb(66, 43, 128);
+  font-size: 1.2rem;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.result {
+  width: 100%;
+  background: lightgray;
+}
+.result p {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.result button {
+  margin: 20px 0 40px 0;
 }
